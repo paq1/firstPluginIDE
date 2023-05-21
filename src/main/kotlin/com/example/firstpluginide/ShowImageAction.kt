@@ -6,6 +6,6 @@ import com.intellij.openapi.ui.Messages
 
 class ShowImageAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
-        Messages.showInfoMessage("Yo pd", "Info")
+        Messages.showInfoMessage("hello world", "Info")
     }
 }
